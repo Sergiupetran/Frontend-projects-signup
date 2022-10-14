@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+@media screen and (max-width: 600px){
+body{
+	background: url("C:/Users/JohnnyCash/Documents/CURS IT/intro-component-with-signup-form-master/images/mobile.png");
+	background-size: cover;
+	background-color: hsl(0, 100%, 74%);
+}
+.first{
+	text-align: center;
+	color: #F5F5F5;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin-top:60px ;
+}
+.second{
+	text-align: center;
+	color:#F5F5F5;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	margin: 20px;
+	padding: 10px;
+	line-height: 1.6;
+}
+.premium{
+	width: 90%;
+	height: 80px;
+	background-color: #8000ff;
+	border-radius: 10px;
+	margin: 20px;
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+	padding-left: 60px;
+	padding-right: 60px;
+	line-height: 1.6;
+	box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.45);
+	border: none;
+}
+.container{
+	width: 85%;
+	background-color: white;
+	height: 380px;
+	margin: 20px;
+	border-radius: 10px;
+	padding: 10px;
+}
+.input{
+	width: 90%;
+	height: 45px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+::placeholder{
+	text-indent: 20px;
+}
+.free{
+	width: 90%;
+	height: 45px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color:hsl(154, 59%, 51%) ;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 13px;
+	padding: 5px;
+}
+.last{
+	text-align: center;
+	color:  grey;
+	font-size: 12px;
+	margin-left: 40px;
+	margin-right: 50px;
+	line-height: 1.6;
+}
+.terms{
+	color: red;
+}
+.form-control{
+	position: relative;
+}
+.form-control i{
+	position: absolute;
+	top: 25px;
+	right: 30px;
+	visibility: hidden;
+}
+.form-control small{
+	position: absolute;
+	bottom: -10px;
+	left: 10px;
+	visibility:hidden;
+}
+.form-control.succes input{
+	border-color: green;
+} 
+.form-control.error input{
+	border-color: red;
+}
+.form-control.succes i.fa-check-circle{
+	color: green;
+	visibility: visible;
+}
+.form-control.error i.fa-exclamation-circle{
+	color: red;
+	visibility: visible;
+}
+.form-control.error small{
+	color: red;
+	visibility: visible;
+}
+.form-control.succes.small{
+	color: green;
+	visibility: visible;
+}
+}
+@media screen and (min-width: 600px){
+	body{
+	background: url("C:/Users/JohnnyCash/Documents/CURS IT/intro-component-with-signup-form-master/images/mobile.png");
+	background-size: cover;
+	background-color: hsl(0, 100%, 74%);
+	display: flex;
+}
+.desktop{
+	width: 50%;
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+.right{
+	width: 50%;
+}
+.first{
+	text-align: left;
+	color: #F5F5F5;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin-top:20px ;
+	margin: 20px;
+	padding: 10px;
+}
+.second{
+	text-align: left;
+	color:#F5F5F5;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 10px;
+	margin: 20px;
+	padding: 10px;
+	line-height: 1.6;
+}
+.premium{
+	width: 90%;
+	height: 40px;
+	background-color: #8000ff;
+	border-radius: 10px;
+	margin: 20px;
+	color: white;
+	font-size: 12px;
+	font-weight: 500;
+	text-align: center;
+	border: none;
+	box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.45);
+}
+.container{
+	width: 85%;
+	background-color: white;
+	height: 320px;
+	margin: 20px;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 0px;
+}
+.input{
+	width: 95%;
+	height: 35px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+::placeholder{
+	text-indent: 20px;
+}
+.free{
+	width: 96%;
+	height: 35px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color:hsl(154, 59%, 51%) ;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 13px;
+	padding: 5px;
+}
+.last{
+	text-align: center;
+	color:  grey;
+	font-size: 8px;
+
+}
+.terms{
+	color: red;
+}
+.form-control{
+	position: relative;
+}
+.form-control i{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	visibility: hidden;
+}
+.form-control small{
+	position: absolute;
+	bottom: -10px;
+	left: 10px;
+	visibility:hidden;
+}
+.form-control.succes input{
+	border-color: green;
+} 
+.form-control.error input{
+	border-color: red;
+}
+.form-control.succes i.fa-check-circle{
+	color: green;
+	visibility: visible;
+}
+.form-control.error i.fa-exclamation-circle{
+	color: red;
+	visibility: visible;
+}
+.form-control.error small{
+	color: red;
+	visibility: visible;
+}
+.form-control.succes.small{
+	color: green;
+	visibility: visible;
+}
+}
