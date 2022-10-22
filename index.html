@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/fcaa26f4e2.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="desktop">
+      <h1 class="first">Learn to code by watching others</h1>
+
+      <p class="second">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable. </p>
+    </div>
+    <div class="right">
+      <button class="premium"><b>Try it free 7 days</b> then $20/mo. thereafter</button>
+      <div class="container">
+        <form class="form" id="form">
+          <div class="form-control">
+            <input type="text" class="input" id="fname" placeholder="First Name">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small class="small">First Name cannot be empty</small>
+          </div>
+          <div class="form-control">
+            <input type="text" class="input" id="lname" placeholder="Last Name">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small class="small">Last Name cannot be empty</small>
+          </div> 
+          <div class="form-control">
+            <input type="text" class="input" id="email" placeholder="Email Address">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small class="small"> This is not an email addres</small>
+          </div>
+          <div class="form-control">
+            <input type="password" class="input" id="password" placeholder="Password">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small class="small">Password cannot be empty</small>
+          </div>
+          <button type="submit" class="free">Claim your free trial</button>
+        </form>
+        <div class="last">
+          <p>By clicking the button, you are agreeing to our<span class="terms"> Terms and Services</span></p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
